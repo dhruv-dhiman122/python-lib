@@ -5,5 +5,5 @@ def sqrt_func(x):
 
 x,y,z = sp.symbols('x y z')
 sp.init_printing(use_unicode=True)
-exp = sp.integrate(sp.sin(x**2), (x, -sp.oo, sp.oo))
-print(exp)
+print(sp.limit(sp.sin(x)/x,x,0))
+print(sp.limit(sp.sin(x)/sp.tan(x),x,0))
