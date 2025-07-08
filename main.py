@@ -13,3 +13,5 @@ exp = sp.sqrt(8)
 print(exp.evalf())
 #combining evalf and subs
 print(exp.evalf(subs={x:4.4}))
+#lambdify function
+
