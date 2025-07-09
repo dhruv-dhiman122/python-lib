@@ -37,3 +37,5 @@ print(f"this is inverse function {sp.asin(1)}")
 print(f"this is using trigsimp function {sp.trigsimp(exp)}")
 #expanding the trig
 print(f"this is unsing expand trig function {sp.expand_trig(exp)}")
+#powsimp
+print(f"this is using power simply function {sp.powsimp(exp3)}")
