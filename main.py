@@ -1,7 +1,7 @@
 import sympy as sp
 
 sp.init_printing(use_unicode=True)
-
+sp.init_printing()
 x,y,z = sp.symbols('x y z')
 #using subs
 exp = sp.sin(2*x) + sp.cos(2*x)
@@ -13,5 +13,9 @@ exp = sp.sqrt(8)
 print(exp.evalf())
 #combining evalf and subs
 print(exp.evalf(subs={x:4.4}))
-#lambdify function
+#function of printing stuff
+#sp.init_session(quiet=True)
 
+#code for simplification section
+
+print(sp.simplify(sp.gamma(x) / sp.gamma(x-2)))
