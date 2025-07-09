@@ -35,3 +35,5 @@ print(f"the is cancel function {sp.cancel((x**2+2*x+1)/(x**2+x))}")
 print(f"this is inverse function {sp.asin(1)}")
 #trigosimp
 print(f"this is using trigsimp function {sp.trigsimp(exp)}")
+#expanding the trig
+print(f"this is unsing expand trig function {sp.expand_trig(exp)}")
