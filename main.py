@@ -7,6 +7,7 @@ I made this file so that i get used to pushing the code to github
 sp.init_printing(use_unicode=True)
 sp.init_printing()
 x,y,z = sp.symbols('x y z')
+a,b,c = sp.symbols('a b c')
 #using subs
 exp = sp.sin(2*x) + sp.cos(2*x)
 exp2 = x**y
@@ -43,4 +44,5 @@ print(f"this is using trigsimp function {sp.trigsimp(exp)}")
 print(f"this is unsing expand trig function {sp.expand_trig(exp)}")
 #powsimp
 print(f"this is using power simply function {sp.powsimp(exp3,force=True)}")
-
+#exapnd power exp
+print(f"this is expanding power expnont version {sp.expand_power_exp(x**(a+b))}")
