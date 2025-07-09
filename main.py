@@ -1,5 +1,9 @@
 import sympy as sp
-
+"""
+for anyone seeing this, plz ingore this file because i am using this
+for learning new library for my project, there is nothing for you in this file.
+I made this file so that i get used to pushing the code to github
+"""
 sp.init_printing(use_unicode=True)
 sp.init_printing()
 x,y,z = sp.symbols('x y z')
@@ -39,3 +43,4 @@ print(f"this is using trigsimp function {sp.trigsimp(exp)}")
 print(f"this is unsing expand trig function {sp.expand_trig(exp)}")
 #powsimp
 print(f"this is using power simply function {sp.powsimp(exp3,force=True)}")
+
