@@ -29,3 +29,5 @@ print(f"this is exapand function {sp.expand(exp)}")
 print(f"this is collect function {sp.collect(exp3,x)}")
 #coeff function
 print(f"this is coeff function {exp3.coeff(x,2)}")
+#cancel function
+print(f"the is cancel function {sp.cancel((x**2+2*x+1)/(x**2+x))}")
