@@ -18,6 +18,9 @@ print(exp.evalf(subs={x:4.4}))
 
 #code for simplification section
 
+#simplify function
 print(f"this is due to simplify function {sp.simplify(x**2+2*x+1)}")
+#factor fucntion
 print(f"this is due to factor function {sp.factor(x**2+2*x+1)}")
-
+#expand function
+print(f"this is exapand function {sp.expand(exp)}")
