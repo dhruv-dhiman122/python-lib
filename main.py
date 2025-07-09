@@ -38,4 +38,4 @@ print(f"this is using trigsimp function {sp.trigsimp(exp)}")
 #expanding the trig
 print(f"this is unsing expand trig function {sp.expand_trig(exp)}")
 #powsimp
-print(f"this is using power simply function {sp.powsimp(exp3)}")
+print(f"this is using power simply function {sp.powsimp(exp3,force=True)}")
