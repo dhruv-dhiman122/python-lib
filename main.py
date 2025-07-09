@@ -27,3 +27,5 @@ print(f"this is due to factor function {sp.factor(x**2+2*x+1)}")
 print(f"this is exapand function {sp.expand(exp)}")
 #collect function
 print(f"this is collect function {sp.collect(exp3,x)}")
+#coeff function
+print(f"this is coeff function {exp3.coeff(x,2)}")
