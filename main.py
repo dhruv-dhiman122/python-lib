@@ -33,3 +33,5 @@ print(f"this is coeff function {exp3.coeff(x,2)}")
 print(f"the is cancel function {sp.cancel((x**2+2*x+1)/(x**2+x))}")
 #inverse trigo
 print(f"this is inverse function {sp.asin(1)}")
+#trigosimp
+print(f"this is using trigsimp function {sp.trigsimp(exp)}")
