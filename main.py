@@ -6,6 +6,7 @@ x,y,z = sp.symbols('x y z')
 #using subs
 exp = sp.sin(2*x) + sp.cos(2*x)
 exp2 = x**y
+exp3 =  (x*2)**2+((2*x)+(2*y))**2
 print(exp2.subs(y,x**(x**x)))
 print(exp.subs(sp.sin(2*x),2*sp.sin(x)*sp.cos(x)))
 #using evalf
@@ -24,3 +25,5 @@ print(f"this is due to simplify function {sp.simplify(x**2+2*x+1)}")
 print(f"this is due to factor function {sp.factor(x**2+2*x+1)}")
 #expand function
 print(f"this is exapand function {sp.expand(exp)}")
+#collect function
+print(f"this is collect function {sp.collect(exp3,x)}")
