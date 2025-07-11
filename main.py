@@ -48,3 +48,5 @@ print(f"this is using power simply function {sp.powsimp(exp3,force=True)}")
 print(f"this is expanding power expnont version {sp.expand_power_exp(x**(a+b))}")
 #expanding the base
 print(f"this is expanding power base version {sp.expand_power_base((x*y)**a)}")
+#powdenest
+print(f"this is function called powdenest {sp.powdenest((x**a)**b)}")
