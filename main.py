@@ -53,4 +53,4 @@ print(f"this is function called powdenest {sp.powdenest((x**a)**b,force=True)}")
 x,y = sp.symbols('x y',positive=True)
 n = sp.symbols('n',real=True)
 print(f"we are expanding the logrithm {sp.expand_log(sp.log(x*y))}")
-
+print(f"We are expanding the logrithm {sp.expand_log(sp.log(x/y))}")
