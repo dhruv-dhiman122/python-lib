@@ -1,4 +1,5 @@
 import sympy as sp
+from sympy import log
 """
 for anyone seeing this, plz ingore this file because i am using this
 for learning new library for my project, there is nothing for you in this file.
@@ -55,4 +56,4 @@ n = sp.symbols('n',real=True)
 print(f"we are expanding the logrithm {sp.expand_log(sp.log(x*y))}")
 print(f"We are expanding the logrithm {sp.expand_log(sp.log(x/y))}")
 print(f"We are expanding the logrithm {sp.expand_log(sp.log(z**2),force=True)}")
-
+print(f"We can combine different algorithm {sp.logcombine(log(x)+log(y))}")
