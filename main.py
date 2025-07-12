@@ -52,4 +52,5 @@ print(f"this is expanding power base version {sp.expand_power_base((x*y)**a)}")
 print(f"this is function called powdenest {sp.powdenest((x**a)**b,force=True)}")
 x,y = sp.symbols('x y',positive=True)
 n = sp.symbols('n',real=True)
+print(f"we are expanding the logrithm {sp.expand_log(sp.log(x*y))}")
 
