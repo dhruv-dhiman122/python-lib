@@ -64,3 +64,6 @@ print(f"We are expanding the logrithm {sp.expand_log(sp.log(z**2),force=True)}")
 print(f"We can combine different algorithm {sp.logcombine(log(x)+log(y))}")
 #we are factorial
 print(f"We can doing factorial function {sp.factorial(4)}")
+#we are doing bionomial
+print(f"We are doing bionomial function {sp.binomial(3,10)}")
+print(f"We are writing the gamma function {sp.gamma(8)}")
