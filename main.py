@@ -1,5 +1,6 @@
 import sympy as sp
 from sympy import log
+from sympy import tan,cos,sin
 """
 for anyone seeing this, plz ingore this file because i am using this
 for learning new library for my project, there is nothing for you in this file.
@@ -69,4 +70,5 @@ print(f"We are doing bionomial function {sp.binomial(3,10)}")
 print(f"We are writing the gamma function {sp.gamma(8)}")
 # we are making the generalized hypergeometric function 
 print(f"We are making generalized hypergeometric function{sp.hyper([1,2,3],[4],z)}")
-
+#we are rewriting an expression into another version of function
+print(f"we are rewriting the function of tan in cos {tan(x).rewrite(cos)}")
