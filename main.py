@@ -76,3 +76,7 @@ print(f"we are rewriting the function of tan in cos {tan(x).rewrite(cos)}")
 print(f"We are expanding the fucntion {sp.expand_func(sp.gamma(x+3))}")
 #we are using hyperexpand function
 print(f"We are using expand function {sp.hyperexpand(sp.hyper([1,2,3],[4],z))}")
+#we are adding interger 
+a,b,c = sp.symbols('a b c',interger=True)
+expr = sp.factorial(x)/sp.factorial(x+1)
+print(f"We are simplying the expr {sp.combsimp(expr)}") 
