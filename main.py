@@ -50,3 +50,6 @@ print(f"this is expanding power expnont version {sp.expand_power_exp(x**(a+b))}"
 print(f"this is expanding power base version {sp.expand_power_base((x*y)**a)}")
 #powdenest
 print(f"this is function called powdenest {sp.powdenest((x**a)**b,force=True)}")
+x,y = sp.symbols('x y',positive=True)
+n = sp.symbols('n',real=True)
+
