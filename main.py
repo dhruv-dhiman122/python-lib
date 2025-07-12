@@ -87,5 +87,6 @@ print(f"We are simplying the gamma function {sp.gammasimp(expr2)}")
 """
 From here i am learning about calculus usage function
 """
-
+#we are differentatie the function 
 print(f"We can differentatie the function {sp.diff(x**4,x)}")
+print(f"This is different method of differentating function {sp.diff(x**4,x,4)}")
