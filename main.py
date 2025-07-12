@@ -83,10 +83,11 @@ print(f"We are simplying the expr {sp.combsimp(expr)}")
 expr2 = sp.gamma(x+1)/sp.gamma(x+2)
 #we are simplying the gamma function
 print(f"We are simplying the gamma function {sp.gammasimp(expr2)}")
-
 """
 From here i am learning about calculus usage function
 """
-#we are differentatie the function 
 print(f"We can differentatie the function {sp.diff(x**4,x)}")
-print(f"This is different method of differentating function {sp.diff(x**4,x,4)}")
+#we can call differentate function with other method
+print(f"We can make another differenatate function {expr.diff(x,2)}")
+# we are integrating the function given
+print(f"We can integrate function {sp.integrate(cos(x),x)}")
