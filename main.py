@@ -83,3 +83,9 @@ print(f"We are simplying the expr {sp.combsimp(expr)}")
 expr2 = sp.gamma(x+1)/sp.gamma(x+2)
 #we are simplying the gamma function
 print(f"We are simplying the gamma function {sp.gammasimp(expr2)}")
+
+"""
+From here i am learning about calculus usage function
+"""
+
+print(f"We can differentatie the function {sp.diff(x**4,x)}")
