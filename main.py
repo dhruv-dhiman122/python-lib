@@ -67,3 +67,6 @@ print(f"We can doing factorial function {sp.factorial(4)}")
 #we are doing bionomial
 print(f"We are doing bionomial function {sp.binomial(3,10)}")
 print(f"We are writing the gamma function {sp.gamma(8)}")
+# we are making the generalized hypergeometric function 
+print(f"We are making generalized hypergeometric function{sp.hyper([1,2,3],[4],z)}")
+
