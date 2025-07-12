@@ -54,3 +54,5 @@ x,y = sp.symbols('x y',positive=True)
 n = sp.symbols('n',real=True)
 print(f"we are expanding the logrithm {sp.expand_log(sp.log(x*y))}")
 print(f"We are expanding the logrithm {sp.expand_log(sp.log(x/y))}")
+print(f"We are expanding the logrithm {sp.expand_log(sp.log(z**2),force=True)}")
+
