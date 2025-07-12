@@ -79,4 +79,7 @@ print(f"We are using expand function {sp.hyperexpand(sp.hyper([1,2,3],[4],z))}")
 #we are adding interger 
 a,b,c = sp.symbols('a b c',interger=True)
 expr = sp.factorial(x)/sp.factorial(x+1)
-print(f"We are simplying the expr {sp.combsimp(expr)}") 
+print(f"We are simplying the expr {sp.combsimp(expr)}")
+expr2 = sp.gamma(x+1)/sp.gamma(x+2)
+#we are simplying the gamma function
+print(f"We are simplying the gamma function {sp.gammasimp(expr2)}")
