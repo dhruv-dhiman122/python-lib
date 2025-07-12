@@ -100,3 +100,6 @@ print(f"We are integrating two different function with limit {sp.integrate(func,
 print(f"We are integrating function with two different {sp.integrate(sp.sqrt(2)*x,(x,0,1))}")
 #we are using limit function
 print(f"We are using limit function {sp.limit(func,x,6)}")
+#we will now solve the limit function
+func1 = sp.limit(sp.cos(x-1)/x,x,9)
+print(f"we will use the do it function {func1.doit()}")
