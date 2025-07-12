@@ -72,3 +72,6 @@ print(f"We are writing the gamma function {sp.gamma(8)}")
 print(f"We are making generalized hypergeometric function{sp.hyper([1,2,3],[4],z)}")
 #we are rewriting an expression into another version of function
 print(f"we are rewriting the function of tan in cos {tan(x).rewrite(cos)}")
+#we are trying to expand a function 
+print(f"We are expanding the fucntion {sp.expand_func(sp.gamma(x+3))}")
+
