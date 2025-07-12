@@ -93,4 +93,6 @@ print(f"We can make another differenatate function {expr.diff(x,2)}")
 print(f"We can integrate function {sp.integrate(cos(x),x)}")
 # we adding now the limit to the integrate
 print(f"We will be adding the limit to the integrate {sp.integrate(cos(x),(x,0,1))}")
-
+# we are integrating the function of two variable
+func = sp.exp(x**2-y**2)
+print(f"We are integrating two different function with limit {sp.integrate(func,(x,0,1),(y,0,1))}")
