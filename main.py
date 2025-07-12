@@ -51,9 +51,16 @@ print(f"this is expanding power expnont version {sp.expand_power_exp(x**(a+b))}"
 print(f"this is expanding power base version {sp.expand_power_base((x*y)**a)}")
 #powdenest
 print(f"this is function called powdenest {sp.powdenest((x**a)**b,force=True)}")
+# adding stmobols
 x,y = sp.symbols('x y',positive=True)
 n = sp.symbols('n',real=True)
+#we are expanding log
 print(f"we are expanding the logrithm {sp.expand_log(sp.log(x*y))}")
+#we are expanding log
 print(f"We are expanding the logrithm {sp.expand_log(sp.log(x/y))}")
+#we are expanding log
 print(f"We are expanding the logrithm {sp.expand_log(sp.log(z**2),force=True)}")
+#we are combining the log
 print(f"We can combine different algorithm {sp.logcombine(log(x)+log(y))}")
+#we are factorial
+print(f"We can doing factorial function {sp.factorial(4)}")
