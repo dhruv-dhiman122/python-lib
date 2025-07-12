@@ -98,3 +98,5 @@ func = sp.exp(x**2-y**2)
 print(f"We are integrating two different function with limit {sp.integrate(func,(x,0,1),(y,0,1))}")
 # we will integrate a numerical function with two vairable
 print(f"We are integrating function with two different {sp.integrate(sp.sqrt(2)*x,(x,0,1))}")
+#we are using limit function
+print(f"We are using limit function {sp.limit(func,x,6)}")
