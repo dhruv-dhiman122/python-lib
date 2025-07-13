@@ -117,3 +117,5 @@ print(f"The answer to func is {sp.solveset(expr2,x)}")
 # we can solve using linsolve when the equation is linear
 result2 = sp.linsolve([x+y+z-1],(x,y,z))
 print(f"We are solving using line solve function {result2}")
+result3 = sp.linsolve(sp.Matrix(([1,2,3,4],[5,6,7,8])),(x,y))
+print(f"we are solving using line solve function for martix {result3}")
