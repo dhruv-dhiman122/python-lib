@@ -103,3 +103,6 @@ print(f"We are using limit function {sp.limit(func,x,6)}")
 #we will now solve the limit function
 func1 = sp.limit(sp.cos(x-1)/x,x,9)
 print(f"we will use the do it function {func1.doit()}")
+#example for limits
+print(f"Limit exmaple {sp.limit(cos(x),x,9)}")
+
