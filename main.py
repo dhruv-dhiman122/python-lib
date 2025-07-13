@@ -114,3 +114,6 @@ print(f"We are using limit to the left side {sp.limit(1/x,x,1,'-')}")
 print(f"We are using the series function {func.series(x,9,10).removeO()}")
 # wr will solve the the func
 print(f"The answer to func is {sp.solveset(expr2,x)}")
+# we can solve using linsolve when the equation is linear
+result2 = sp.linsolve([x+y+z-1],(x,y,z))
+print(f"We are solving using line solve function {result2}")
