@@ -112,3 +112,5 @@ print(f"We are using limit to the right side {sp.limit(1/x,x,1,'+')}")
 print(f"We are using limit to the left side {sp.limit(1/x,x,1,'-')}")
 # we are using the series function
 print(f"We are using the series function {func.series(x,9,10).removeO()}")
+# wr will solve the the func
+print(f"The answer to func is {sp.solveset(expr2,x)}")
