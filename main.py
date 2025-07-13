@@ -110,3 +110,5 @@ print(f"Limit exmaple {sp.limit(cos(x),x,9)}")
 print(f"We are using limit to the right side {sp.limit(1/x,x,1,'+')}")
 #to the negative side
 print(f"We are using limit to the left side {sp.limit(1/x,x,1,'-')}")
+# we are using the series function
+print(f"We are using the series function {func.series(x,9,10)}")
