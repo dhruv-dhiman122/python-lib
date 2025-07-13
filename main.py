@@ -105,4 +105,8 @@ func1 = sp.limit(sp.cos(x-1)/x,x,9)
 print(f"we will use the do it function {func1.doit()}")
 #example for limits
 print(f"Limit exmaple {sp.limit(cos(x),x,9)}")
-
+#we are passing vlaue for doing the limit one side 
+#to the positive side
+print(f"We are using limit to the right side {sp.limit(1/x,x,1,'+')}")
+#to the negative side
+print(f"We are using limit to the left side {sp.limit(1/x,x,1,'-')}")
