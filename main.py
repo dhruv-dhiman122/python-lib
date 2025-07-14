@@ -123,3 +123,5 @@ print(f"we are solving using line solve function for martix {result3}")
 # we are solving nonlinear equation
 exp4 = (x**2+2*y)
 print(f"This answer is result of non linear solving {sp.nonlinsolve([exp4],[x,y])}")
+# we are solving for complex solution
+print(f"We are solving for complex solution {sp.nonlinsolve([x**2+1,y**2+1],[x,y])}")
