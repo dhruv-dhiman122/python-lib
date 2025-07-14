@@ -125,3 +125,10 @@ exp4 = (x**2+2*y)
 print(f"This answer is result of non linear solving {sp.nonlinsolve([exp4],[x,y])}")
 # we are solving for complex solution
 print(f"We are solving for complex solution {sp.nonlinsolve([x**2+1,y**2+1],[x,y])}")
+
+"""
+From he we are starting with matrix opreation
+"""
+
+# we are making matrix with the following function
+print(f"We are making matrix with the following code {sp.Matrix([[1,2],[3,4]])}")
