@@ -142,3 +142,6 @@ print(f"This is the answer of multiplication of two matrix {m*n}")
 print(f"We are printing to see the type of matrix {type(m)}")
 # we are printing the shape of the matrix
 print(f"The shape of the matrix is {sp.shape(n)}")
+# we are accessing the rows and the element of the matrix
+print(f"The element number one of matrix is {n.row(0)}")
+print(f"The element number one of the column is {n.col(0)}")
