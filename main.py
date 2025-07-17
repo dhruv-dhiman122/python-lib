@@ -154,3 +154,5 @@ print(n)
 print(n.row_insert(1, sp.Matrix([[1,2,3]])))
 # we can find the reverse and the transpose of the matrix
 print(f"we are finding the transpose of the matrix {m.T}")
+# we are making a matrix
+print(f"we are making a matrix {sp.eye(4)}")
