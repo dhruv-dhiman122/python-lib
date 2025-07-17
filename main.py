@@ -132,3 +132,13 @@ From he we are starting with matrix opreation
 
 # we are making matrix with the following function
 print(f"We are making matrix with the following code {sp.Matrix([[1,2],[3,4]])}")
+m = sp.Matrix([[1,2,3],
+               [4,5,6],
+               [13,14,15]])
+n = sp.Matrix([[7,8,9],
+               [10,11,12],
+              [45,54,65]])
+print(f"This is the answer of multiplication of two matrix {m*n}")
+print(f"We are printing to see the type of matrix {type(m)}")
+# we are printing the shape of the matrix
+print(f"The shape of the matrix is {sp.shape(n)}")
