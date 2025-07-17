@@ -156,3 +156,6 @@ print(n.row_insert(1, sp.Matrix([[1,2,3]])))
 print(f"we are finding the transpose of the matrix {m.T}")
 # we are making a matrix
 print(f"we are making a matrix {sp.eye(4)}")
+# we are making matrix full of zero and one
+print(f"Full zero matrix {sp.zeros(3,3)}")
+print(f"Full one matrix {sp.ones(3,3)}")
