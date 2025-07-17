@@ -148,8 +148,9 @@ print(f"The element number one of the column is {n.col(0)}")
 # we can delete and insert into the matrix too
 n.row_del(1)
 print(n)
-m.col_del(1)
-print(m)
+#m.col_del(1)
+#print(m)
 # we are inserting into the matrix
 print(n.row_insert(1, sp.Matrix([[1,2,3]])))
-
+# we can find the reverse and the transpose of the matrix
+print(f"we are finding the transpose of the matrix {m.T}")
