@@ -145,3 +145,8 @@ print(f"The shape of the matrix is {sp.shape(n)}")
 # we are accessing the rows and the element of the matrix
 print(f"The element number one of matrix is {n.row(0)}")
 print(f"The element number one of the column is {n.col(0)}")
+# we can delete and insert into the matrix too
+n.row_del(1)
+print(n)
+m.col_del(1)
+print(m)
