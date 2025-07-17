@@ -159,3 +159,5 @@ print(f"we are making a matrix {sp.eye(4)}")
 # we are making matrix full of zero and one
 print(f"Full zero matrix {sp.zeros(3,3)}")
 print(f"Full one matrix {sp.ones(3,3)}")
+#we are finding the determinate of the matrix
+print(f"We are finding the determiniate {m.det()}")
