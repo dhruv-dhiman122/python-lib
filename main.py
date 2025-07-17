@@ -150,3 +150,6 @@ n.row_del(1)
 print(n)
 m.col_del(1)
 print(m)
+# we are inserting into the matrix
+print(n.row_insert(1, sp.Matrix([[1,2,3]])))
+
