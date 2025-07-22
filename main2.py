@@ -15,3 +15,6 @@ We create a array's slice item that which can be refering to the orginial array
 l2 = np_arr[3:5]
 l2[0] = 100
 print(np_arr)
+l2 = [11,12,13,14,15,16,17,18,19,20]
+np_arr2 = np.array([l1,l2])
+print(np_arr2)
