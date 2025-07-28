@@ -22,3 +22,4 @@ print(np_arr2)
 print(np_arr2[1,2])
 print(np_arr2.ndim)
 print(np_arr2.shape) # this will tell us the number of columns and rows
+print(np_arr.shape)
