@@ -24,3 +24,4 @@ print(np_arr2.ndim)
 print(np_arr2.shape) # this will tell us the number of columns and rows
 print(np_arr.shape)
 print(np_arr2.size) # this will give us the number of element within the array
+print(np_arr2.dtype) # this will give us the data type of the array
