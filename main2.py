@@ -16,6 +16,8 @@ l2 = np_arr[3:5]
 l2[0] = 100
 print(np_arr)
 l2 = [11,12,13,14,15,16,17,18,19,20]
-np_arr2 = np.array([l1,l2])
+l3 = [21,22,23,25,26,26,27,28,29,30]
+np_arr2 = np.array([l1,l2,l3])
 print(np_arr2)
 print(np_arr2[1,2])
+print(np_arr2.ndim)
