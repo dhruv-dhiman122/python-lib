@@ -18,3 +18,4 @@ print(np_arr)
 l2 = [11,12,13,14,15,16,17,18,19,20]
 np_arr2 = np.array([l1,l2])
 print(np_arr2)
+print(np_arr2[1,2])
