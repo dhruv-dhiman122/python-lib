@@ -33,3 +33,13 @@ We are starting from here to build basics array
 """
 print(np.zeros(4))
 print(f"an array with ones {np.ones(10)}")
+#create a function that ask the zero to print either zero or one
+
+def one_zero(option,size):
+    if option == 0:
+        print(np.zeros(size))
+    else:
+        print(np.ones(size))
+user_option = int(input("enter here the option: "))
+user_size = int(input("Enter the size here: "))
+one_zero(user_option, user_size)
