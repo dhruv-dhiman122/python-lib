@@ -25,3 +25,10 @@ print(np_arr2.shape) # this will tell us the number of columns and rows
 print(np_arr.shape)
 print(np_arr2.size) # this will give us the number of element within the array
 print(np_arr2.dtype) # this will give us the data type of the array
+l4 = ['dhruv',True, 12]
+np_arr3 = np.array([l4])
+print(np_arr3.dtype)
+"""
+We are starting from here to build basics array
+"""
+print(np.zeros(4))
