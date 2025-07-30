@@ -32,3 +32,4 @@ print(np_arr3.dtype)
 We are starting from here to build basics array
 """
 print(np.zeros(4))
+print(f"an array with ones {np.ones(10)}")
