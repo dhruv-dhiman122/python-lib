@@ -17,7 +17,8 @@ l2[0] = 100
 print(np_arr)
 l2 = [11,12,13,14,15,16,17,18,19,20]
 l3 = [21,22,23,25,26,26,27,28,29,30]
-np_arr2 = np.array([l1,l2,l3])
+l5 = [10,242,2433,22,422234,0,1222,11,54,345]
+np_arr2 = np.array([l1,l2,l3,l5])
 print(np_arr2)
 print(np_arr2[1,2])
 print(np_arr2.ndim)
@@ -45,3 +46,5 @@ print(np.empty(6))
 print(np.empty(6))
 print(np.arange(1,10,2))
 print(np.linspace(0,10,num=2, dtype=np.int8))
+
+print(f"we have the sorted array {np.sort(np_arr2)}")
