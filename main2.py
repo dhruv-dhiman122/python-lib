@@ -40,6 +40,8 @@ def one_zero(option,size):
         print(np.zeros(size))
     else:
         print(np.ones(size))
-user_option = int(input("enter here the option: "))
-user_size = int(input("Enter the size here: "))
-one_zero(user_option, user_size)
+
+print(np.empty(6))
+print(np.empty(6))
+print(np.arange(1,10,2))
+print(np.linspace(0,10,num=2, dtype=np.int8))
