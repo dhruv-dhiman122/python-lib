@@ -48,3 +48,9 @@ print(np.arange(1,10,2))
 print(np.linspace(0,10,num=2, dtype=np.int8))
 
 print(f"we have the sorted array {np.sort(np_arr2)}")
+
+test_sort = np.array([12,2,33,4,5,1,0,122,3,9])
+print(f"the unsorted array is {test_sort}")
+print(f"the sorted array is {np.sort(test_sort)}")
+print(f"we are using the argsort function {np.argsort(test_sort)}")
+print(f"We are using the lexsort function {np.lexsort(test_sort, axis=0)}")
